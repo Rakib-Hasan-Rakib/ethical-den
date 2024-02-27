@@ -1,0 +1,6 @@
+.nav-underline {
+    border-bottom-width: 2px;
+    /* width: 20px; */
+    border-style: solid;
+    border-image: linear-gradient(to right, #09e5e5, #8efa6d)2;
+}
