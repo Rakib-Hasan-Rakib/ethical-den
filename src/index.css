@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Noto Sans", sans-serif; */
+  font-family: "Poppins", sans-serif;
   background-color: #000000;
   color: white;
 }
@@ -16,14 +20,20 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-weight: bold;
 }
 
 .gradient-border {
   border-width: 1px;
   border-style: solid;
-  border-image: linear-gradient(to right, #09e5e5, #8efa6d)2;
-
+  border-image: linear-gradient(to right, #09e5e5, #8efa6d)3;
+  border-radius: 5px;
 }
+
+.card:hover {
+  background: linear-gradient(to top, #000000, transparent), linear-gradient(to right, #09e5e5, #8efa6d);
+}
+
 
 .btn-one {
   @apply px-4 py-2 font-bold rounded-2xl
@@ -36,4 +46,9 @@ body {
 
 .btn-two:hover {
   background: linear-gradient(to left, #09e5e5, #8efa6d);
+}
+
+.swiper-button-next::after {
+  position: absolute !important;
+  /* top: 500%; */
 }

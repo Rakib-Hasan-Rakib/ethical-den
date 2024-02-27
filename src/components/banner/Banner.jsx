@@ -38,7 +38,7 @@ const Banner = () => {
               We're the best digital marketing agency from west bengal, curating
               experiences that users fall in love with.
             </p>
-            <button className="btn-two flex items-center gap-3 justify-center lg:mx-auto my-4 text-lg 2xl:text-xl">
+            <button className="btn-two flex items-center gap-3 justify-center lg:mx-auto my-4 md:text-lg 2xl:text-xl">
               Hire us <MdOutlineArrowOutward size={22} />
             </button>
           </div>
