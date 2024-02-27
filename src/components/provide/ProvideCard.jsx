@@ -3,7 +3,7 @@ import { RiArrowRightDoubleLine } from "react-icons/ri";
 const ProvideCard = ({ image }) => {
   return (
     <>
-      <div className="gradient-border rounded-md card py-5 lg:py-8 space-y-3 md:space-y-8">
+      <div className="item-border rounded-md card py-5 lg:py-8 space-y-3 md:space-y-8">
         <div className="w-2/5 mx-auto h-40">
           <img src={image} alt="product image" className="w-52 h-40 mx-auto" />
         </div>

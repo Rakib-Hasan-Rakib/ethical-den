@@ -3,6 +3,7 @@ import Banner from "../banner/Banner";
 import Clients from "../clients/Clients";
 import Navbar from "../navbar/Navbar";
 import Provide from "../provide/Provide";
+import Services from "../services/Services";
 import Container from "./Container";
 
 const Layout = () => {
@@ -15,6 +16,7 @@ const Layout = () => {
           <Provide />
           <About />
           <Clients />
+          <Services />
         </div>
       </Container>
     </>

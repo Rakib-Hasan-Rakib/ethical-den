@@ -15,14 +15,14 @@ const Provide = () => {
     if (index > 0) {
       setIndex((prevalue) => prevalue - 1);
     } else {
-      setIndex(0);
+      setIndex(2);
     }
   };
   const handleNext = () => {
     if (index < 2) {
       setIndex((prevalue) => prevalue + 1);
     } else {
-      setIndex(2);
+      setIndex(0);
     }
   };
 
