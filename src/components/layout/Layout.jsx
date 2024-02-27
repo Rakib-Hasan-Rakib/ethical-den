@@ -1,5 +1,6 @@
 import About from "../about/About";
 import Banner from "../banner/Banner";
+import Clients from "../clients/Clients";
 import Navbar from "../navbar/Navbar";
 import Provide from "../provide/Provide";
 import Container from "./Container";
@@ -13,6 +14,7 @@ const Layout = () => {
           <Banner />
           <Provide />
           <About />
+          <Clients />
         </div>
       </Container>
     </>
