@@ -23,11 +23,30 @@ body {
   font-weight: bold;
 }
 
+.gradient-text-two {
+  background: linear-gradient(to bottom, #09e5e5, #8efa6d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
 .gradient-border {
   border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(to right, #09e5e5, #8efa6d)3;
   border-radius: 5px;
+}
+
+.item-border {
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #09e5e5, #8efa6d)3;
+  border-radius: 5px;
+}
+
+.item-border:hover {
+  border-image: linear-gradient(to left, #09e5e5, #8efa6d)3;
 }
 
 .card:hover {
