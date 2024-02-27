@@ -1,6 +1,7 @@
 import About from "../about/About";
 import Banner from "../banner/Banner";
 import Clients from "../clients/Clients";
+import Collaborations from "../collarborations/Collaborations";
 import Navbar from "../navbar/Navbar";
 import Provide from "../provide/Provide";
 import Services from "../services/Services";
@@ -17,6 +18,7 @@ const Layout = () => {
           <About />
           <Clients />
           <Services />
+          <Collaborations />
         </div>
       </Container>
     </>

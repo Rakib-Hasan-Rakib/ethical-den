@@ -9,7 +9,7 @@ const Clients = () => {
 
     // todo make a slider here
   return (
-    <div className="my-32">
+    <div>
       {SectionTitle("our valuable", "clients")}
       <div className="flex flex-shrink-0 justify-between items-center gap-8 my-32">
         <ClientCard image={ekoClinic} />
