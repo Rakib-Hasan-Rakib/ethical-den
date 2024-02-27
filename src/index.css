@@ -12,7 +12,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(to top, #09e5e5, #8efa6d);
+  background: linear-gradient(to right, #09e5e5, #8efa6d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -27,4 +27,13 @@ body {
 
 .btn-one {
   @apply px-4 py-2 font-bold rounded-2xl
+}
+
+.btn-two {
+  background: linear-gradient(to right, #09e5e5, #8efa6d);
+  @apply px-6 py-2 rounded-md text-black font-bold transition-all duration-300
+}
+
+.btn-two:hover {
+  background: linear-gradient(to left, #09e5e5, #8efa6d);
 }
