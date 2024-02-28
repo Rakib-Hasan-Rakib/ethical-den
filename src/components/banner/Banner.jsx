@@ -22,7 +22,7 @@ const Banner = () => {
   }, []);
   return (
     <>
-      <div className="w-full h-[90vh] mx-auto flex justify-center items-center text-start lg:text-center">
+      <div id="banner" className="w-full h-[90vh] mx-auto flex justify-center items-center text-start lg:text-center">
         <div className="space-y-3 lg:space-y-5">
           <div className="text-2xl md:text-4xl xl:text-5xl 2xl:text-7xl font-bold capitalize space-y-2 lg:space-y-5">
             <h1>innovative cyber agency</h1>

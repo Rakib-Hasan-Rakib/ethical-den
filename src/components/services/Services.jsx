@@ -31,7 +31,7 @@ const Services = () => {
 
   return (
     <>
-      <div>
+      <div id="service">
         {SectionTitle("All", "services")}
         <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 xl:gap-6">
           <ServiceCard image={uiDesign} name="UI/UX design" />

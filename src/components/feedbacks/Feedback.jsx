@@ -4,91 +4,10 @@ import clientTwo from "../../assets/images/client_two.png";
 import clientThree from "../../assets/images/client_three.png";
 import FeedbackCard from "./FeedbackCard";
 import { useState } from "react";
-
-// const Feedback = () => {
-//   const [index, setIndex] = useState(0);
-
-//   const handlePrevious = () => {
-//     if (index > 0) {
-//       setIndex((preValue) => preValue - 1);
-//     } else {
-//       setIndex(3);
-//     }
-//   };
-//   const handleNext = () => {
-//     if (index < 3) {
-//       setIndex((preValue) => preValue + 1);
-//     } else {
-//       setIndex(0);
-//     }
-//   };
-
-//   const slides = [
-//     clientOne,
-//     clientTwo,
-//     clientThree,
-//     clientOne,
-//     clientTwo,
-//     clientThree,
-//   ];
-//   return (
-//     <>
-//       <div>
-//
-//         <div
-//           class="your-class"
-//           data-slick={`$('.responsive').slick({
-//   dots: true,
-//   infinite: false,
-//   speed: 300,
-//   slidesToShow: 4,
-//   slidesToScroll: 4,
-//   responsive: [
-//     {
-//       breakpoint: 1024,
-//       settings: {
-//         slidesToShow: 3,
-//         slidesToScroll: 3,
-//         infinite: true,
-//         dots: true
-//       }
-//     },
-//     {
-//       breakpoint: 600,
-//       settings: {
-//         slidesToShow: 2,
-//         slidesToScroll: 2
-//       }
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         slidesToShow: 1,
-//         slidesToScroll: 1
-//       }
-//     }
-//     // You can unslick at a given breakpoint now by adding:
-//     // settings: "unslick"
-//     // instead of a settings object
-//   `}
-//         >
-//           <div>your content</div>
-//           <div>your content</div>
-//           <div>your content</div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
-// import required modules
 import { Navigation } from "swiper/modules";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 

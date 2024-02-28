@@ -6,7 +6,6 @@ import { MdOutlineRemoveCircleOutline } from "react-icons/md";
 const TeamCard = ({ image }) => {
   const [showOverlay, setShowOverlay] = useState(false);
 
-  
   return (
     <>
       <div className="relative">
@@ -14,7 +13,7 @@ const TeamCard = ({ image }) => {
 
         {!showOverlay && (
           <img
-            onClick={()=>setShowOverlay(true)}
+            onClick={() => setShowOverlay(true)}
             src={plusIcon}
             alt="plus icon"
             className="bg-white rounded-full p-3 absolute bottom-4 right-4 cursor-pointer"
@@ -27,8 +26,8 @@ const TeamCard = ({ image }) => {
               size={22}
               className="text-red-500 absolute -top-3 -right-2 cursor-pointer"
             />
-            <h3 className="text-3xl lg:text-2xl font-semibold">Nazmul Islam</h3>
-            <p>UI/UX Designer</p>
+            <h3 className="text-xl lg:text-2xl font-semibold">Nazmul Islam</h3>
+            <p className="text-sm lg:text-lg">UI/UX Designer</p>
             <div className="flex justify-center items-center gap-2">
               <FaInstagram size={22} className="cursor-pointer" />
               <FaFacebook size={22} className="cursor-pointer" />

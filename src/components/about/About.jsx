@@ -13,7 +13,7 @@ import arrowDown from "../../assets/icons/material-symbols_arrow-insert.png";
 const About = () => {
   return (
     <>
-      <div className="lg:flex justify-start items-start gap-12">
+      <div id="about" className="lg:flex justify-start items-start gap-12">
         <h1 className="lg:hidden text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl font-semibold capitalize mt-4 mb-8 md:text-center">
           <span className="gradient-text">About</span> Us
         </h1>

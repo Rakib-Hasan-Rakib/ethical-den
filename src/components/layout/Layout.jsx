@@ -9,19 +9,25 @@ import Navbar from "../navbar/Navbar";
 import Provide from "../provide/Provide";
 import Services from "../services/Services";
 import Team from "../team/Team";
+import Works from "../works/Works";
 import Container from "./Container";
 
 const Layout = () => {
   return (
     <>
-      <Container>
-        {/* <Navbar /> */}
-        <div className="space-y-20 xl:space-y-40">
+      <div className="banner-bg">
+        <Container>
+          <Navbar />
           <Banner />
+        </Container>
+      </div>
+      <Container>
+        <div className="space-y-20 xl:space-y-40">
           <Provide />
           <About />
           <Clients />
           <Services />
+          <Works />
           <Feedback />
           <Collaborations />
           <Team />
