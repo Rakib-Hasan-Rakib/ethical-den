@@ -2,6 +2,8 @@ import About from "../about/About";
 import Banner from "../banner/Banner";
 import Clients from "../clients/Clients";
 import Collaborations from "../collarborations/Collaborations";
+import Contact from "../contact/Contact";
+import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar";
 import Provide from "../provide/Provide";
 import Services from "../services/Services";
@@ -19,7 +21,12 @@ const Layout = () => {
           <Clients />
           <Services />
           <Collaborations />
+          <Contact />
         </div>
+      </Container>
+      <hr />
+      <Container>
+        <Footer />
       </Container>
     </>
   );
