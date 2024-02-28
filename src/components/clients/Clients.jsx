@@ -6,22 +6,19 @@ import brandGhar from "../../assets/icons/Layer_one.png";
 import aw from "../../assets/icons/Layer.png";
 
 const Clients = () => {
-
-    // todo make a slider here
+  // todo make a slider here
   return (
-    <div>
-      {SectionTitle("our valuable", "clients")}
-      <div className="flex flex-shrink-0 justify-between items-center gap-8 my-32">
-        <ClientCard image={ekoClinic} />
-        <ClientCard image={roaderr} />
-        <ClientCard image={brandGhar} />
-        <ClientCard image={aw} />
-        {/* <ClientCard image={ekoClinic} />
-        <ClientCard image={roaderr} />
-        <ClientCard image={brandGhar} />
-        <ClientCard image={aw} /> */}
+    <>
+      <div>
+        {SectionTitle("our valuable", "clients")}
+        <div className="flex flex-shrink-0 justify-between items-center gap-8">
+          <ClientCard image={ekoClinic} />
+          <ClientCard image={roaderr} />
+          <ClientCard image={brandGhar} />
+          <ClientCard image={aw} />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 export default Clients;

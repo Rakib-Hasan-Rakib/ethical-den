@@ -61,7 +61,24 @@ body {
   background: linear-gradient(to left, #09e5e5, #8efa6d);
 }
 
-.swiper-button-next::after {
+/* .swiper-button-next {
   position: absolute !important;
-  /* top: 500%; */
+  top: 0;
+} */
+
+/* .swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  cursor: pointer;
+} */
+
+/* .swiper-button-prev {
+  left: 10px;
 }
+
+.swiper-button-next {
+  right: 10px;
+} */

@@ -1,0 +1,32 @@
+.swiper-pagination-bullet {
+    background: #fff;
+    width: 10px;
+    height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #09e5e5;
+    width: 15px;
+    height: 15px;
+    margin-bottom: -2px !important;
+    box-shadow: 0.1px 0.1px 5px #fff;
+}
+
+/* swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal */
+
+.card-overlay {
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgb(56, 159, 156, 0.8), rgb(115, 169, 103, 0.8));
+}
+
+@media (max-width:424px) {
+    .card-overlay {
+        width: 250px;
+    }
+}
+
+@media (min-width:769px) and(max-width:1024px) {
+    .card-overlay {
+        width: 200px;
+    }
+}
