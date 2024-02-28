@@ -9,9 +9,8 @@ const FeedbackCard = ({ image }) => {
         className="card py-8 px-6 rounded-lg space-y-8"
       >
         <div className="flex justify-between items-center">
-          <div className="flex items-center gap-4">
+          <div className="flex flex-row items-center gap-2 xl:gap-4">
             <img src={image} alt="client photo" />
-
             <div>
               <h4 className="text-xl">Jhon Doe</h4>
               <p>

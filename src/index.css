@@ -43,8 +43,12 @@ body {
   border-image: linear-gradient(to left, #09e5e5, #8efa6d)3;
 }
 
+/* .card {
+  transition: all 1s ease-in-out;
+} */
+
 .card:hover {
-  background: linear-gradient(to top, #000000, transparent), linear-gradient(to right, #09e5e5, #8efa6d);
+  background: linear-gradient(to top, #000000, transparent), linear-gradient(to right, rgb(9, 229, 229, 0.3), rgb(142, 250, 109, 0.3));
 }
 
 
@@ -61,24 +65,15 @@ body {
   background: linear-gradient(to left, #09e5e5, #8efa6d);
 }
 
-/* .swiper-button-next {
-  position: absolute !important;
-  top: 0;
-} */
 
-/* .swiper-button-prev,
+
+.swiper-button-prev,
 .swiper-button-next {
   position: absolute;
-  top: 50%;
+  top: 10%;
+  right: 10%;
   transform: translateY(-50%);
   z-index: 1000;
   cursor: pointer;
-} */
-
-/* .swiper-button-prev {
-  left: 10px;
 }
 
-.swiper-button-next {
-  right: 10px;
-} */
