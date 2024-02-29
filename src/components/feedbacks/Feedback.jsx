@@ -24,7 +24,10 @@ const Feedback = () => {
   ];
   return (
     <div>
-      {SectionTitle("what our", "client say")}
+      <div className="hidden md:block">
+        {SectionTitle("what our", "client say")}
+      </div>
+      <div className="md:hidden">{SectionTitle("what", "client say")}</div>
       <section className="">
         <div className="w-full mx-auto">
           <div className="relative">
@@ -58,7 +61,10 @@ const Feedback = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div style={{ zIndex: 100 }} className="absolute -top-12 md:-top-14 lg:-top-16 right-0">
+            <div
+              style={{ zIndex: 100 }}
+              className="absolute -top-12 md:-top-14 lg:-top-16 right-0"
+            >
               <button
                 style={{
                   color: "black",

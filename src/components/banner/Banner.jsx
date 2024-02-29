@@ -30,7 +30,7 @@ const Banner = () => {
               springConfig={presets.wobbly}
               className="lg:flex lg:justify-center lg:items-center"
             >
-              <h1 className="gradient-text">{texts[index % texts.length]}</h1>
+              <h1 className="gradient-text py-1">{texts[index % texts.length]}</h1>
             </TextTransition>
           </div>
           <div className="md:w-1/2 lg:w-3/5 lg:mx-auto">

@@ -5,7 +5,7 @@ const ProvideCard = ({ image }) => {
     <>
       <div className="item-border rounded-md card py-5 lg:py-8 space-y-3 md:space-y-8">
         <div className="w-2/5 mx-auto h-40">
-          <img src={image} alt="product image" className="w-52 h-40 mx-auto" />
+          <img src={image} alt="product image" className="w-52  mx-auto" />
         </div>
         <div className="text-center w-full lg:w-4/5 mx-auto">
           <h3 className="text-2xl xl:text-3xl font-semibold md:py-4 lg:py-6">

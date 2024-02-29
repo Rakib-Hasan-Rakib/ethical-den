@@ -1,4 +1,4 @@
-import { FaQuoteRight, FaStar } from "react-icons/fa6";
+import { FaQuoteRight } from "react-icons/fa6";
 import { IoStar } from "react-icons/io5";
 
 const FeedbackCard = ({ image }) => {

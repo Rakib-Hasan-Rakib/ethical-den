@@ -1,6 +1,4 @@
-// import { NavHashLink } from "react-router-hash-link";
 
-import { HashLink } from "react-router-hash-link";
 
 const WorksNav = () => {
   return (

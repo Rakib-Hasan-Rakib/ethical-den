@@ -1,6 +1,4 @@
 import logo from "../../assets/images/Logo.png";
-import { MdOutlineArrowOutward } from "react-icons/md";
-import "./navbar.css";
 import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 import arrowUp from '../../assets/icons/arrow_up.png'

@@ -13,6 +13,16 @@ import memberThree from "../../assets/images/Team_member_three.png";
 import memberFour from "../../assets/images/Team_member_four.png";
 
 const Team = () => {
+  const slides = [
+    memberOne,
+    memberTwo,
+    memberThree,
+    memberFour,
+    memberOne,
+    memberTwo,
+    memberThree,
+    memberFour,
+  ];
   return (
     <>
       <div>
@@ -44,30 +54,11 @@ const Team = () => {
           modules={[Pagination]}
           className="mySwiper pb-16 lg:hidden"
         >
-          <SwiperSlide>
-            <TeamCard image={memberOne} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberTwo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberThree} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberFour} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberOne} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberTwo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberThree} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberFour} />
-          </SwiperSlide>
+          {slides.map((sideContent, i) => (
+            <SwiperSlide key={i}>
+              <TeamCard image={sideContent} />
+            </SwiperSlide>
+          ))}
         </Swiper>
         <Swiper
           slidesPerView={2}
@@ -96,30 +87,11 @@ const Team = () => {
           modules={[Pagination]}
           className="mySwiper pb-16 hidden lg:block xl:hidden"
         >
-          <SwiperSlide>
-            <TeamCard image={memberOne} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberTwo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberThree} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberFour} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberOne} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberTwo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberThree} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberFour} />
-          </SwiperSlide>
+          {slides.map((sideContent, i) => (
+            <SwiperSlide key={i}>
+              <TeamCard image={sideContent} />
+            </SwiperSlide>
+          ))}
         </Swiper>
         <Swiper
           slidesPerView={4}
@@ -148,30 +120,11 @@ const Team = () => {
           modules={[Pagination]}
           className="mySwiper pb-16 hidden xl:block"
         >
-          <SwiperSlide>
-            <TeamCard image={memberOne} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberTwo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberThree} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberFour} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberOne} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberTwo} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberThree} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <TeamCard image={memberFour} />
-          </SwiperSlide>
+          {slides.map((sideContent, i) => (
+            <SwiperSlide key={i}>
+              <TeamCard image={sideContent} />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </>
